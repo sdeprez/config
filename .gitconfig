@@ -1,0 +1,48 @@
+[user]
+	email = XXX@YYY
+	name = sdeprez
+[alias]
+	st = status
+	ci = commit -a -m
+	cm = commit -m
+	co = checkout
+	up = submodule update
+	tree = log --graph --decorate --abbrev-commit --date-order --pretty=format:'%Cgreen%h%Creset : %s%Cred%d%Creset (%Cblue%an%Creset, %Cblue%ar%Creset)'
+  new-branch = !bash -c 'git push origin HEAD:"$0" && git co "$0"'
+
+[branch]
+	autosetupmerge = true
+
+[push]
+	default = tracking
+
+[rebase]
+	autosquash = true
+
+[color]
+	diff   = auto
+	branch = auto
+	status = auto
+	pager  = true
+	ui     = true
+
+[color "diff"]
+	meta = bold black
+	frag = bold cyan
+	old  = bold red
+	new  = bold green
+
+[color "status"]
+	header    = bold black
+	added     = bold green
+	changed   = bold red
+	untracked = white
+
+[color "grep"]  
+  linenumber = yellow bold
+  match = red
+  filename = magenta 
+
+[core]
+	excludesfile = /home/sdeprez/.gitignore_global
+	editor = vim

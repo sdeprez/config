@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/seb/Madumbo/testing/vanilla/href404OnNavigateAfterUselessClick'
+let g:netrw_dirhist_2='/home/seb/Madumbo/testing/language/filterOutOneLineLanguageWrong'
+let g:netrw_dirhist_3='/home/seb/Madumbo-AWS/ec2/autoScaling.js'
+let g:netrw_dirhist_4='/home/seb/myMad/client/src/components/dashboard'
+let g:netrw_dirhist_5='/home/seb/myMad/client/src/components'
